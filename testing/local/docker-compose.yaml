@@ -1,0 +1,12 @@
+version: "3.7"
+services:
+  otelcontribcol:
+    container_name: otc-container
+    image: otelcontribcol-debuggable:latest
+    ports:
+      - "2345:2345"
+      - "13133:13133"
+    environment:
+      DELVE_CONTINUE: ${DELVE_CONTINUE-true}
+    volumes:
+      - ./collector-config.yaml:/etc/otel/config.yaml
