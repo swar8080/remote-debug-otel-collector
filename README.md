@@ -1,6 +1,8 @@
 # Remotely-debuggable OTEL Collector Docker Image
 This repository builds an opentelemetry-collector-contrib docker image that a remote debugger can attach to. This can be helpful for troubleshooting environment-specific issues.
 
+You can show your interest in the OTEL team publishing "official" debuggable docker images in [this github issue](https://github.com/open-telemetry/opentelemetry-collector-releases/issues/481). That would be more robust and future-proof than this repo, but it works for now.
+
 # Getting a debuggable docker image
 
 I'll be publishing images whenever there's new versions of the contrib collector:
