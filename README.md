@@ -6,8 +6,8 @@ You can show your interest in the OTEL team publishing "official" debuggable doc
 # Getting a debuggable docker image
 
 I'll be publishing images whenever there's new versions of the contrib collector:
-* [swar8080/otelcontribcol-debuggable-amd64](https://hub.docker.com/r/swar8080/otelcontribcol-debuggable-amd64) (linux amd64)
-* [swar8080/otelcontribcol-debuggable-amd64](https://hub.docker.com/r/swar8080/otelcontribcol-debuggable-arm64) (linux arm64)
+* [swar8080/otelcontribcol-debuggable-amd64](https://hub.docker.com/r/swar8080/otelcontribcol-debuggable-amd64/tags) (linux amd64)
+* [swar8080/otelcontribcol-debuggable-amd64](https://hub.docker.com/r/swar8080/otelcontribcol-debuggable-arm64/tags) (linux arm64)
 
 Alternatively you can [build your own image from scratch](#building-debuggable-docker-images-from-scratch) with the script in this repo.
 
